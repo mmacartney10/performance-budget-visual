@@ -1,0 +1,20 @@
+{
+  "name": "performance-budget-visual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Macartney",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "handlebars": "^4.0.5",
+    "performance-budget": "^1.4.0",
+    "run-sequence": "^1.1.5"
+  }
+}

@@ -1,0 +1,32 @@
+.performance-budget-key {
+
+}
+
+.performance-budget-key__list {
+  margin-top: 5px;
+}
+
+.performance-budget-key__item {
+  background: $c-red;
+  float: left;
+  padding: 10px 20px;
+  margin: 0 5px;
+  text-align: center;
+  border: 1px solid $c-white;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:nth-child(3n-1) {
+    background-color: $c-black;
+  }
+
+  &:nth-child(3n+1) {
+    background-color: $c-blue;
+  }
+}
